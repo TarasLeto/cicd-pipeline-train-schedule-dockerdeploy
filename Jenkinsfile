@@ -18,7 +18,7 @@ pipeline {
                     app.inside {
                          sh 'echo $(curl localhost:8080)'
                     }
-           
+                }
     }
             }    
             Stage ('Push Docker Image') {
